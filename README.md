@@ -1,10 +1,11 @@
 # Anki Deck Generator
 
-[Anki](https://github.com/ankitects/anki) is the most popular flash card program I could find.
-The public decks I've come across vary in quality and making your own is quite the rage.
+[Anki](https://github.com/ankitects/anki) is the most popular flash card program out there.
+The public decks I've come across vary in quality and making your own is all the rage.
 
 This script takes a list of English words, translates them using Google Translate, generates
-an audio file of the word/phrase being pronounced and then puts it into an Anki deck.
+an audio file of the word/phrase being pronounced in the target language and then puts it all
+into an Anki deck.
 
 ## Prerequisites
 
