@@ -1,6 +1,10 @@
 # Anki Deck Generator
 
-This project automates the creation of an Anki deck from English flashcards by translating them to a target language, generating TTS audio files, and creating an Anki deck package.
+[Anki](https://github.com/ankitects/anki) is the most popular flash card program I could find.
+The public decks I've come across vary in quality and making your own is quite the rage.
+
+This script takes a list of English words, translates them using Google Translate, generates
+an audio file of the word/phrase being pronounced and then puts it into an Anki deck.
 
 ## Prerequisites
 
@@ -33,7 +37,7 @@ python generate_anki_deck.py input_csv output_dir google_credentials_json output
 
 Example:
 ```bash
-python generate_anki_deck.py english_flashcards.csv audio_files path/to/credentials.json ru_hello_beg_1.apkg "RU Hello - Beginner I" ru --voice_name ru-RU-Standard-C --speaking_rate 0.75
+python generate_anki_deck.py examples/flashcards.csv google_credentials.json ru_food_beginner.apkg "[RU] Food - Beginner I" ru --voice_name ru-RU-Standard-C --speaking_rate 0.75
 ```
 
 ### Customizing for Other Languages
