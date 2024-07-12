@@ -1,7 +1,7 @@
 # Anki Deck Generator
 
 <p align="center">
-   <img src="https://git.zaaane.com/zane/anki-deck-generator/raw/branch/main/docs/diagram.png" alt="Diagram" />
+   <img src="https://github.com/ZaneH/anki-deck-generator/blob/main/docs/diagram.png?raw=true" alt="Diagram" />
 </p>
 
 [Anki](https://github.com/ankitects/anki) is the most popular flash card program out there.
