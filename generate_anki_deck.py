@@ -88,6 +88,14 @@ def generate_anki_deck(csv_file, output_file, deck_name, deck_id):
 
     print(f"Anki deck '{deck_name}' created successfully as {output_file}!")
 
+    # Delete all generated MP3 files
+    for file in media_files:
+        try:
+            os.remove(file)
+            print(f"Deleted {file}")
+        except Exception as e:
+            print(f"Error deleting {file}: {e}")
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(
